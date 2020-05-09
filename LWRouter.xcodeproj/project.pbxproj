@@ -14,6 +14,8 @@
 		65642ADB2466550300E18ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65642ADA2466550300E18ED8 /* Assets.xcassets */; };
 		65642ADE2466550300E18ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65642ADC2466550300E18ED8 /* LaunchScreen.storyboard */; };
 		65642AE12466550300E18ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65642AE02466550300E18ED8 /* main.m */; };
+		65642AE92466567C00E18ED8 /* LWRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65642AE82466567C00E18ED8 /* LWRouter.m */; };
+		65642AEC246658CB00E18ED8 /* LWTarget_test.m in Sources */ = {isa = PBXBuildFile; fileRef = 65642AEB246658CB00E18ED8 /* LWTarget_test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		65642ADD2466550300E18ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65642ADF2466550300E18ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65642AE02466550300E18ED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65642AE72466567C00E18ED8 /* LWRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRouter.h; sourceTree = "<group>"; };
+		65642AE82466567C00E18ED8 /* LWRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRouter.m; sourceTree = "<group>"; };
+		65642AEA246658CB00E18ED8 /* LWTarget_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTarget_test.h; sourceTree = "<group>"; };
+		65642AEB246658CB00E18ED8 /* LWTarget_test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTarget_test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				65642ADC2466550300E18ED8 /* LaunchScreen.storyboard */,
 				65642ADF2466550300E18ED8 /* Info.plist */,
 				65642AE02466550300E18ED8 /* main.m */,
+				65642AE72466567C00E18ED8 /* LWRouter.h */,
+				65642AE82466567C00E18ED8 /* LWRouter.m */,
+				65642AEA246658CB00E18ED8 /* LWTarget_test.h */,
+				65642AEB246658CB00E18ED8 /* LWTarget_test.m */,
 			);
 			path = LWRouter;
 			sourceTree = "<group>";
@@ -146,8 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65642AE92466567C00E18ED8 /* LWRouter.m in Sources */,
 				65642AD62466550200E18ED8 /* ViewController.m in Sources */,
 				65642AD02466550200E18ED8 /* AppDelegate.m in Sources */,
+				65642AEC246658CB00E18ED8 /* LWTarget_test.m in Sources */,
 				65642AE12466550300E18ED8 /* main.m in Sources */,
 				65642AD32466550200E18ED8 /* SceneDelegate.m in Sources */,
 			);
