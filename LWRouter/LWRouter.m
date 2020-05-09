@@ -9,6 +9,7 @@
 #import "LWRouter.h"
 
 @implementation LWRouter
+
 + (instancetype)sharedInstance
 {
     static LWRouter *mediator;
@@ -104,7 +105,6 @@
             return @(result);
     }
     
-
     if (strcmp(retType, @encode(BOOL)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         
