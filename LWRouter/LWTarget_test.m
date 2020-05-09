@@ -10,7 +10,11 @@
 
 @implementation LWTarget_test
 - (NSInteger)action_testLog:(NSDictionary *)dic {
-    NSLog(@"dic=%@\n",dic);
+    NSLog(@"%s: dic=%@\n",__func__,dic);
     return 2;
 }
+- (void)action_testLog1:(NSDictionary *)dic {
+    NSLog(@"%s: dic=%@\n",__func__,dic);
+}
+
 @end

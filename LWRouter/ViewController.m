@@ -28,7 +28,9 @@
 }
 - (void)text {
     id test = [[LWRouter sharedInstance]openUrl:@"LWRouter://test/testLog?aaa=111&bbb=222"];
-    NSLog(@"return====%@",test);
+    NSLog(@"testLogreturn====%@",test);
+    id test1 = [[LWRouter sharedInstance]openUrl:@"LWRouter://test/testLog1?aaa=111&bbb=222"];
+    NSLog(@"testLog1return====%@",test1);
 }
 
 
